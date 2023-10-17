@@ -1,12 +1,15 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Header from '../common/header/Header'
+import Home from '../home/Home'
 
 const Pages = () => {
   return (
     <>
+     <Header /> 
       <Routes>
-        <Header />
+       
+        <Route exact path='/' element={<Home />} />
       </Routes>
     </>
   )

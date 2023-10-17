@@ -14,7 +14,6 @@ header a{
     margin-left: 30px;
     transition: 3s;
     font-weight: 500;
-    color: #fff;
 }
 header a:hover{
     color: #27ae60;
