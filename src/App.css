@@ -40,3 +40,44 @@ button{
 button i{
   margin-right: 5px;
 }
+
+.heading{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.heading h1{
+  color: #2f3954;
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: 600;
+}
+.heading p{
+  color: #72809d;
+}
+textarea, input{
+  border: none;
+  outline: none;
+  background-color: none;
+}
+.background{
+  padding: 80px 0;
+  position: relative;
+  background-color: #f7f9fc;
+}
+.grid5{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 30px;
+}
+label{
+  color: #2f3954;
+  font-size: 14px;
+}
+.mtop{
+  margin-top: 50px;
+}
+h4{
+  font-weight: 500;
+  margin-top: 10px;
+}
