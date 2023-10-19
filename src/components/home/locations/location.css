@@ -1,4 +1,4 @@
-.box .location{
+.location .box {
     position: relative;
     border-radius: 5px;
 }
@@ -11,9 +11,33 @@
     left: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     height: 250px;
     width: 100%;
     color: #fff;
     z-index: 2222;
+}
+.location .overlay::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 340px;
+    height: 210px;
+    background: rgb(15 28 47 / 30%);
+    z-index: -1;
+    margin: 20px;
+    border-radius: 5px;
+}
+.location label{
+    color: #fff;
+    margin-right: 20px;
+    opacity: 0.8;
+}
+@media screen and (max-width:800px){
+    .location .overlay::after{
+        width: 280px;
+        height: 170px;
+    }
 }
