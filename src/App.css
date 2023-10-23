@@ -175,4 +175,13 @@ img{
   .grid3,.grid4,.grid5{
     grid-template-columns: repeat(2,1fr);
   }
+  .heading{
+    width: 100%;
+  }
+  .container{
+    max-width: 100%;
+  }
+  .back,.back::after, .back img{
+    height: 30vh;
+  }
 }
