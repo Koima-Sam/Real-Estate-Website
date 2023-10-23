@@ -172,4 +172,7 @@ img{
   .about .container img{
     margin-top: 50px;
   }
+  .grid3,.grid4,.grid5{
+    grid-template-columns: repeat(2,1fr);
+  }
 }
